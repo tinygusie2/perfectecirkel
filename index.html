@@ -2,82 +2,46 @@
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>De beste cirkel.</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
 
-        .container {
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            overflow: hidden;
-        }
-
-        main {
-            flex-grow: 1;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        #canvas-container {
-            width: 90%; /* Adjust as needed */
-            height: 90%; /* Adjust as needed */
-        }
-
-        footer {
-            display: flex;
-            justify-content: flex-end; /* Align to the right */
-            align-items: center;
-            padding: 10px;
-        }
-
-        .ldBar {
-            margin-left: auto; /* Push to the right */
-            width: 50%; /* Adjust width of progress bar */
-        }
-
-        .button {
-            margin-right: 20px; /* Space between button and progress bar */
-        }
-    </style>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="./css/loading-bar.css" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- CSS Imports-->
+    <link rel="stylesheet" type="text/css" href="./css/loading-bar.css" />
+    <title>De beste cirkel.</title>
 </head>
 
 <body>
-    <div class="container">
-        <header>
-            <div class="stitched" id="info">
-                ?
-            </div>
-        </header>
-        <main>
-            <div class="canvasContainer" id="canvas-container"></div>
-        </main>
-        <footer>
-            <div class="footer">
-                <div class="button slide" id="evaluate-button">Evalueer cirkel.</div>
-                <div data-preset="rainbow" class="ldBar label-center" id="progress-bar" data-value="35"
-                    data-aspect-ratio="none" data-stroke-width="20">
-                    <div>
-                        <p>Wacht even op de volgende vraag</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-    </div>
-    <script src="./js/math.js"></script>
-    <script type="text/javascript" src="./js/loading-bar.js" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-    <script src="./js/util.js"></script>
-    <script src="./js/app.js" defer></script>
-</body>
+    <div class="container">
+        <div class="stitched" id="info">
+            ?
+        </div>
+        <div class="canvasContainer" id="canvas-container"></div>
+        <div class="footer">
+            <div class="button slide" id="evaluate-button">Evalueer cirkel.</div>
+            <div data-preset="rainbow" class="ldBar label-center" id="progress-bar" data-value="35" data-aspect-ratio="none" data-stroke-width="20" style="width:80%;">
+            <div <P>Wacht even op de volgende vraag</P></div> 
+            </div>
+        </div>
 
+        <!-- Imports -->
+
+        <!-- My js dependencies -->
+
+        <!-- Math.js -->
+
+        <script src="./js/math.js"></script>
+        <!-- Loading-bar.js -->
+        <script type="text/javascript" src="./js/loading-bar.js" defer></script>
+        <!-- sweet alert 2 -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <!-- My js -->
+        <script src="./js/util.js"></script>
+        <script src="./js/app.js" defer></script>
+</body>
 </html>
+
+
+
