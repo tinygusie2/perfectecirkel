@@ -2,39 +2,40 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- My CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <link rel="stylesheet" href="./css/style.css">
-    <!-- CSS Imports-->
     <link rel="stylesheet" type="text/css" href="./css/loading-bar.css" />
     <title>De beste cirkel.</title>
 </head>
 
 <body>
-    <div class="container">
-        <div class="stitched" id="info">
-            ?
-        </div>
-        <div class="canvasContainer" id="canvas-container"></div>
-        <div class="footer">
-            <div class="button slide" id="evaluate-button">Evalueer cirkel.</div>
-            <div data-preset="rainbow" class="ldBar label-center" id="progress-bar" data-value="35" data-aspect-ratio="none" data-stroke-width="20" style="width:100%;">
-            <div <P>Wacht even op de volgende vraag</P></div> 
+    <div class="container" style="overflow: hidden;">
+        <header>
+            <div class="stitched" id="info">
+                ?
             </div>
-        </div>
-        <!-- Imports -->
-        <!-- My js dependencies -->
-        <!-- Math.js -->
-        <script src="./js/math.js"></script>
-        <!-- Loading-bar.js -->
-        <script type="text/javascript" src="./js/loading-bar.js" defer></script>
-        <!-- sweet alert 2 -->
-        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-        <!-- My js -->
-        <script src="./js/util.js"></script>
-        <script src="./js/app.js" defer></script>
+        </header>
+        <main>
+            <div class="canvasContainer" id="canvas-container"></div>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="button slide" id="evaluate-button">Evalueer cirkel.</div>
+                <div data-preset="rainbow" class="ldBar label-center" id="progress-bar" data-value="35"
+                    data-aspect-ratio="none" data-stroke-width="20" style="width:100%;">
+                    <div>
+                        <p>Wacht even op de volgende vraag</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./js/math.js"></script>
+    <script type="text/javascript" src="./js/loading-bar.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="./js/util.js"></script>
+    <script src="./js/app.js" defer></script>
 </body>
 
 </html>
