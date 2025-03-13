@@ -1,11 +1,6 @@
 body {
     margin: 0px;
     background-color: #1D1E23;
-    background: repeating-linear-gradient(45deg,
-        #1D1E23,
-        #1D1E23 20px,
-        #1D1E25 20px,
-        #1D1E25 40px);
 }
 
 div.container {
