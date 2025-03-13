@@ -4,9 +4,9 @@ const MAX_NUMBER_OF_POINTS = 10000;
 const MAX_ITERATIONS = 100;
 const TOLERANCE = 0.01;
 const MAX_NEWTON_ITERATIONS = 10;
-const INFO_TEXT = `1. Draw your best circle on the canvas below. <br>
-				   2. Click the 'Evaluate Drawing'-button and see how close you were to a perfect circle.` 
-const FOOTER_TEXT = `Code at &nbsp; <a href="https://github.com/LeviBorodenko/rateyourcircle"> Github</a>`
+const INFO_TEXT = `1. Teken je beste cirkel hier. <br>
+				   2. Klik de evalueer cirkel knop om te kijken hoe goed hij was.` 
+const FOOTER_TEXT = `Veel geluk.`
 
 
 function norm(array) {
